@@ -55,8 +55,17 @@ From there I started generating `people.d.ts` and `geometry.d.ts` which I had to
 
 I did **not** include the `output/app.js` generated file from the `src/app.tsx`. If you want to check this works, remember to compile the code and then run node with the output.
 
+## How to run this code?
+
 ```sh
-$> npm install
-$> ./node_modules/.bin/tsc
-$> node output/app.js
+# Clone it
+git clone git@github.com:rodrigoelp/reactnative-typescript-exercise-5.git declarations
+# Get into that folder
+cd declarations/
+# install dependencies
+yarn
+# Compile your code.
+./node_modules/.bin/tsc
+# Run it!
+node output/app.js
 ```
